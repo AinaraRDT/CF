@@ -1,0 +1,90 @@
+/* Common nav styles */
+.navigation-wrapper {
+    height: 70px;
+    background-color: #000000;
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 170px;
+    height: 100%;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1000px;
+    margin-left: 40px;
+}
+
+.navigation-wrapper > .center-column > h2 {
+    font-size: 13px;
+    color: #cea135;
+    text-align: left;
+    padding-left: 14px;
+    margin-bottom: 4px;  
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items:start;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link {
+    font-weight: 900;
+    width: 100px;
+    text-align: center;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    font-size: 1.1rem;
+    color: hsla(0, 0%, 100%, 1);
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px 10px 15px 15px;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a:hover {
+    background-color: #4c4f5a;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-spark {
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    width: 600px;
+}
+
+.navigation-wrapper > .right-column > .create-search-login-signup-wrapper {
+    display: flex;
+    justify-content: right;
+    align-items:center;  
+}
+
+.navigation-wrapper > .right-column > .create-search-login-signup-wrapper > .search-icon {
+    margin: 15px 5px 15px 20px;
+}
+
+.navigation-wrapper > .right-column > .create-search-login-signup-wrapper > .search-icon i {
+    font-size: 2em;
+    color: #9b9dad;
+}

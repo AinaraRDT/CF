@@ -1,0 +1,69 @@
+/* Footer styles */
+.footer {
+    background-color: #202125;
+    padding-top: 10px;
+    height: 200px;
+    display: flex;
+    align-items:flex-start;
+}
+
+.footer > .teams-education-privacy-writing-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4c4f5a;
+    color: hsla(230, 12%, 80%, 1);
+    border: 1px solid #9b9dad;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .teams {   
+    width: 25%;
+    text-align: center;
+    border-left: 1px solid #9b9dad;
+    border-right: 1px solid #9b9dad;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .teams strong {
+    font-family: 'Arca Majora 3', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .education {   
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #9b9dad;  
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .education strong {
+    font-family: 'Arca Majora 3', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .privacy {   
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #9b9dad;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .privacy strong {
+    font-family: 'Arca Majora 3', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .writing {   
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #9b9dad;
+}
+
+.footer > .teams-education-privacy-writing-wrapper > .writing strong {
+    font-family: 'Arca Majora 3', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
